@@ -37,7 +37,6 @@ function App() {
   // get official interest rate
   useOfficialRate(interestRateField.putValue);
 
-  console.log("render");
   return (
     <div className="app">
       <section className="main_section">
