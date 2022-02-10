@@ -7,7 +7,7 @@ function useLoanCalculator(
   installmentsNumber: string,
   interestRate: string,
   paymentType: "annuity" | "differentiated"
-) {
+): ResultType {
   const [result, setResult] = useState<ResultType>({
     sum: 0,
     interestSum: 0,

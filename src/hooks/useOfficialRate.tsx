@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import getTodaysDate from "../utils/getTodaysDate";
 
-function useOfficialRate(setInterestRate: (val: string) => void) {
+function useOfficialRate(setInterestRate: (val: string) => void): void {
   const getOfficialInterestRate = async () => {
     try {
       const response = await fetch(
